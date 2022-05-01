@@ -3,9 +3,9 @@ package gephi
 type Attributes map[string]interface{}
 
 type RGB struct {
-	Red   float32 `json:"r"`
-	Green float32 `json:"g"`
-	Blue  float32 `json:"b"`
+	Red   int `json:"r"`
+	Green int `json:"g"`
+	Blue  int `json:"b"`
 }
 
 type Coordinates struct {
